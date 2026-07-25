@@ -754,6 +754,13 @@ body{
   animation:heartbeat 1.4s ease-in-out infinite;
 }
 
+.env-seal img{
+    width: 58px;
+    height: 58px;
+    object-fit: contain;
+    pointer-events: none;
+}
+
 /* ===== RESPONSIVE ===== */
 @media(max-width:400px){
   .gifts-grid{grid-template-columns:1fr;}
@@ -824,7 +831,9 @@ body{
         <div class="env-right"></div>
         <div class="env-bottom-tri"></div>
       </div>
-      <div class="env-seal">🌹</div>
+      <div class="env-seal">
+          <img src="dimsum.png" alt="Flower">
+      </div>
     </div>
     <p class="tap-hint">· tap to open ·</p>
   </div>
